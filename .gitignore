@@ -165,3 +165,6 @@ data/kvasir-seg.zip
 data/kvasir-sessile.zip
 data/Kvasir-SEG
 data/sessile-main-Kvasir-SEG
+data/train
+data/test
+data/val
