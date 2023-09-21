@@ -168,3 +168,7 @@ data/sessile-main-Kvasir-SEG
 data/train
 data/test
 data/val
+
+
+# models
+models/*.pth
