@@ -8,24 +8,26 @@
 ## Data
 
 Dataset: Kvasir-SEG dataset\
-Source : https://datasets.simula.no/kvasir-seg/
+Source: https://datasets.simula.no/kvasir-seg/
 
 Contains 1000 polyp images and their corresponding ground truth.
 
 ## Architecture
 Used a simple U-net, with 3-channel input and 1-channel output. Check [notebook](./notebook/model.ipynb) for the model arch.\
-Architecture based on paper : https://arxiv.org/pdf/1505.04597.pdf
+Architecture based on paper: https://arxiv.org/pdf/1505.04597.pdf
 
 
 
 ## Training
-Trained for 120 epochs. Check [Notebook](./notebook/polyp-segmentation.ipynb) for whole training in PyTorch.\
+Trained for 120 epochs. Check [Notebook](./notebook/polyp-segmentation.ipynb) for the whole training in PyTorch.\
 Criterion - DiceLoss\
 Optimizer - Adam
 
+
 <p align="center">
-<img src="./assets/output-b-2.png" width="550" alt="Training plot"/>
+<img src="https://github.com/anshuman-8/Gastrointestinal-Polyp-Segmentation/assets/90995338/8d48443d-9bfd-411d-9b5b-a0f9e98ea1f0" width="550" alt="Training plot"/>
 </p>
+
 
 ## Results
 
@@ -35,8 +37,9 @@ IoU Loss: **1.0000**\
 BCE Loss: **0.0509**
 
 ### Predictions-
+
 <p align="center">
-<img src="./assets/prediction-img-1.png" width="550" alt="Training plot"/>
+<img src="https://github.com/anshuman-8/Gastrointestinal-Polyp-Segmentation/assets/90995338/e2eff584-c362-4a1c-a3a1-4c8384890fe5" width="550" alt="Training plot"/>
 </p>
 
 ## TODO
